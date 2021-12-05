@@ -11,7 +11,7 @@
 <br/><br/>
 
 ### ThreadLocal이란
-<img src="./images/sync/threadLocal.png" /><br/>
+<img src="./images/sync/threadLocal.png" width="80%" /><br/>
 <br/><br/>
 
 ### ThreadLocal 실험 
