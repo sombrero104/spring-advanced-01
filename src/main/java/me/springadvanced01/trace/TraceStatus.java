@@ -15,6 +15,12 @@ public class TraceStatus {
         return traceId;
     }
 
+    public TraceStatus(TraceId traceId, Long startTimeMs, String message) {
+        this.traceId = traceId;
+        this.startTimeMs = startTimeMs;
+        this.message = message;
+    }
+
     public void setTraceId(TraceId traceId) {
         this.traceId = traceId;
     }
