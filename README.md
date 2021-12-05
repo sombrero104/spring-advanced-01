@@ -15,10 +15,10 @@
 <br/>
 
 ### ThreadLocal 실험 
-##### ThreadLocal 사용 전
+#### ThreadLocal 사용 전
 <img src="./images/sync/before_threadLocal.png" /><br/>
 <img src="./images/sync/before_threadLocal2.png" /><br/>
-##### ThreadLocal 사용 후 
+#### ThreadLocal 사용 후 
 <img src="./images/sync/after_threadLocal.png" /><br/>
 <br/>
 
