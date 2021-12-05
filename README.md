@@ -23,10 +23,10 @@
 <br/><br/>
 
 ### ThreadLocal 사용 시 반드시 주의해야 할 점 
-<img src="./images/sync/threadLocal_need_remove_01.png" /><br/>
-<img src="./images/sync/threadLocal_need_remove_02.png" /><br/>
-<img src="./images/sync/threadLocal_need_remove_03.png" /><br/>
-<img src="./images/sync/threadLocal_need_remove_04.png" /><br/>
+<img src="./images/sync/threadLocal_need_remove_01.png" width="70%" /><br/>
+<img src="./images/sync/threadLocal_need_remove_02.png" width="70%" /><br/>
+<img src="./images/sync/threadLocal_need_remove_03.png" width="70%" /><br/>
+<img src="./images/sync/threadLocal_need_remove_04.png" width="70%" /><br/>
 <br/><br/>
 
 ##### * ThreadLocal에 세션 저장해서 사용하기 
