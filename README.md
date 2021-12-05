@@ -32,5 +32,10 @@
 ##### * ThreadLocal에 세션 저장해서 사용하기 
 https://velog.io/@skygl/ThreadLocal
 
-<br/><br/>
+<br/><br/><br/><br/>
 
+## '변하는 것과 변하지 않는 것을 분리'
+
+
+
+<br/><br/><br/><br/>
