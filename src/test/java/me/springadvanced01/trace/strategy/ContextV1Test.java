@@ -89,6 +89,11 @@ public class ContextV1Test {
         context2.execute();
     }
 
+    /**
+     * 익명 내부 클래스를 자바 8부터 제공하는 람다로 변경할 수 있다.
+     * 람다로 변경하려면 인터페이스에 메서드가 1개만 있어야 하는데,
+     * Strategy 인터페이스는 메서드가 1개만 있으므로 람다로 사용할 수 있다.
+     */
     @Test
     void strategyV4() {
         ContextV1 context1 = new ContextV1(() -> log.info("비즈니스 로직 1 실행"));
