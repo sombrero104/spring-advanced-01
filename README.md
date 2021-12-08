@@ -65,6 +65,21 @@ https://velog.io/@skygl/ThreadLocal
 <br/><br/>
 
 ## 전략 패턴
+#### 1. 필드에 전략을 보관하는 방식
+<a href="https://github.com/sombrero104/spring-advanced-01/blob/master/src/test/java/me/springadvanced01/trace/strategy/code/strategy/ContextV1.java">
+ContextV1.java</a><br/>
+ContextV1은 변하지 않는 로직을 가지고 있는 템플릿 역할을 하는 코드이다.<br/>
+전략패턴에서는 이것을 컨텍스트(문맥)이라 한다.<br/>
+컨텍스트(문맥)는 크게 변하지 않지만, 그 문맥 속에서 strategy를 통해 일부 전략이 변경된다 생각하면 된다.<br/>
+변하는 부분인 Strategy의 구현체를 주입하면 된다.<br/>
+전략 패턴의 핵심은 Context는 Strategy 인터페이스에만 의존한다는 점이다.<br/>
+덕분에 Strategy의 구현체를 변경하거나 새로 만들어도 Context 코드에는 영향을 주지 않는다.<br/>
+
+#### 2. 전략을 파라미터로 전달 받는 방식
+<br/><br/>
+
+## 템플릿 메서드 패턴 vs 전략 패턴
+
 #### 1. 템플릿 메서드 패턴(상속) 
 => 부모를 상속받아 abstract 메소드를 구현한 자식을 실행. 
 #### 2. 전략 패턴(위임) 
