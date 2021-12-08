@@ -46,7 +46,7 @@ https://velog.io/@skygl/ThreadLocal
     - 변경이 있을 때 단일 책임 원칙을 잘 지켰는지가 드러난다. 
 <br/><br/>
 
-### 템플릿 메서드 패턴
+## 템플릿 메서드 패턴
 #### 템플릿 메서드 패턴 단점.
 자식클래스가 부모클래스의 기능을 사용하지 않음에도 불구하고<br/>
 자식클래스가 부모클래스를 의존하고 있다.<br/>
@@ -64,7 +64,7 @@ https://velog.io/@skygl/ThreadLocal
 전략 패턴(Strategy Pattern)이다. <br/>
 <br/><br/>
 
-### 전략 패턴
+## 전략 패턴
 #### 1. 템플릿 메서드 패턴(상속) 
 => 부모를 상속받아 abstract 메소드를 구현한 자식을 실행. 
 #### 2. 전략 패턴(위임) 
@@ -75,7 +75,7 @@ https://velog.io/@skygl/ThreadLocal
 <br/><br/>
 
 
-### 템플릿 콜백 패턴 
+## 템플릿 콜백 패턴 
 
 #### * 콜백 정의
 <img src="./images/callback.png" width="70%" /><br/>
