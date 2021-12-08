@@ -78,6 +78,12 @@ ContextV1은 변하지 않는 로직을 가지고 있는 템플릿 역할을 하
 #### 2. 전략을 파라미터로 전달 받는 방식
 <a href="https://github.com/sombrero104/spring-advanced-01/blob/master/src/test/java/me/springadvanced01/trace/strategy/code/strategy/ContextV2.java">
 ContextV2.java</a><br/>
+Context와 Strategy를 '선 조립 후 실행'하는 방식이 아니라<br/>
+Context를 실행할 때마다 전략을 인수로 전달한다.<br/>
+클라이언트는 Context를 실행하는 시점에 원하는 Strategy를 전달할 수 있다.<br/>
+따라서 이전 방식과 비교해서 원하는 전략을 더욱 유연하게 변경할 수 있다.<br/>
+테스트 코드를 보면 하나의 Context만 생성한다.<br/>
+그리고 하나의 Context에 실행 시점에 여러 전략을 인수로 전달해서 유연하게 실행한다.<br/>
 <br/><br/>
 
 ## 템플릿 메서드 패턴 vs 전략 패턴
