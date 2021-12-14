@@ -25,7 +25,7 @@ public class OrderControllerV5 {
 
     @GetMapping("/v5/request")
     public String request(String itemId) {
-        return template.execute("OrderController.request()", new TraceCallback<>() {
+        return template.execute("OrderController.request()", new TraceCallback<>() { // 콜백으로 익명 내부 클래스 사용.
             @Override
             public String call() {
                 orderService.orderItem(itemId);
