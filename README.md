@@ -128,4 +128,6 @@ Context를 실행할 때마다 전략을 인수로 전달한다.<br/>
 - 스프링에서는 JdbcTemplate, RestTemplate, TransactionTemplate, RedisTemplate 처럼
 다양한 템플릿 콜백 패턴이 사용된다. 
 - 스프링에서 이름에 'XxxTemplate'가 있다면 템플릿 콜백 패턴으로 만들어져 있다 생각하면 된다. 
+
+
 <br/><br/><br/><br/>
